@@ -7,3 +7,16 @@ __pycache__/
 env/
 venv/
 ENV/
+# Data & outputs
+data/**
+!data/**/README.md
+
+artifacts/**
+!artifacts/**/README.md
+
+submission.csv
+*.joblib
+*.pkl
+
+# CI / tests caches
+.pytest_cache/
